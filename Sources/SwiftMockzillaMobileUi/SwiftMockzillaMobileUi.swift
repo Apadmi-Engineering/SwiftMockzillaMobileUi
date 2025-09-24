@@ -1,5 +1,5 @@
 import mockzilla_mobile_ui
 
-public func launchManagementUi() {
+public func launchManagementUiSwift() {
     Launcher_iosKt.launchManagementUi()
 }

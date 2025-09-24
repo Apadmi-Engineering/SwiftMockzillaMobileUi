@@ -1,5 +1,5 @@
-import mockzilla
+import mockzilla_mobile_ui
 
 public func launchManagementUi() {
-    LauncherIosKt.launchManagementUi()
+    Launcher_iosKt.launchManagementUi()
 }

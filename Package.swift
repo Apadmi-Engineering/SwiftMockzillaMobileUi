@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SwiftMockzillaMobileUi",
-            targets: ["SwiftMockzillaMobileUi", "mockzilla-mobile-ui"]),
+            targets: ["SwiftMockzillaMobileUi", "mockzilla_mobile_ui"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,13 +21,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SwiftMockzillaMobileUi",
-            dependencies: ["mockzilla-mobile-ui"]),
+            dependencies: ["mockzilla_mobile_ui"]),
         .testTarget(
             name: "SwiftMockzillaMobileUiTests",
-            dependencies: ["SwiftMockzillaMobileUi", "mockzilla-mobile-ui"]),
+            dependencies: ["SwiftMockzillaMobileUi", "mockzilla_mobile_ui"]),
         .binaryTarget(
-            name: "mockzilla-mobile-ui",
-            path: "./mockzilla-mobile-ui.xcframework"
+            name: "mockzilla_mobile_ui",
+            path: "./mockzilla_mobile_ui.xcframework"
         ),
     ]
 )

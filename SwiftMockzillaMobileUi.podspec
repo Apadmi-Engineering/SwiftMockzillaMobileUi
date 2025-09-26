@@ -17,5 +17,4 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks = 'mockzilla_mobile_ui.xcframework'
     spec.source_files = 'Sources/SwiftMockzillaMobileUi/SwiftMockzillaMobileUi.swift'
     spec.swift_version = '5.9.2'
-    spec.resources = ['build/compose/cocoapods/compose-resources']
 end

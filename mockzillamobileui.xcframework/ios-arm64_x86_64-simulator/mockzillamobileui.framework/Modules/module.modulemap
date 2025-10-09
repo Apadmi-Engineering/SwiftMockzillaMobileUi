@@ -1,0 +1,5 @@
+framework module "mockzillamobileui" {
+    umbrella header "mockzillamobileui.h"
+    export *
+    module * { export * }
+}

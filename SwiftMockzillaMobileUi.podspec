@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'SwiftMockzillaMobileUi'
-    spec.version                  = '0.0.7'
+    spec.version                  = '0.0.8'
     spec.homepage                 = 'https://mockzilla.apadmi.dev/'
-    spec.source                   = { :git => 'https://github.com/Apadmi-Engineering/SwiftMockzillaMobileUi.git', :tag => 'v0.0.7' }
+    spec.source                   = { :git => 'https://github.com/Apadmi-Engineering/SwiftMockzillaMobileUi.git', :tag => 'v0.0.8' }
     spec.authors                  = ''
     spec.license                  = {:type => 'MIT', :file => 'LICENSE'}
     spec.summary                  = 'Embedded UI for configuring and controlling the Mockzilla server from within an app'

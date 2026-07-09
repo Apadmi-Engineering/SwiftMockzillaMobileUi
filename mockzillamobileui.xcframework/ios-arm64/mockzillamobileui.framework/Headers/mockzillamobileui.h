@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class UIViewController;
+@class MockzillamobileuiMockzillaMobileUiBuildConfig, UIViewController;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -140,6 +140,17 @@ __attribute__((swift_name("KotlinBoolean")))
 @interface MockzillamobileuiBoolean : MockzillamobileuiNumber
 - (instancetype)initWithBool:(BOOL)value;
 + (instancetype)numberWithBool:(BOOL)value;
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MockzillaMobileUiBuildConfig")))
+@interface MockzillamobileuiMockzillaMobileUiBuildConfig : MockzillamobileuiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)mockzillaMobileUiBuildConfig __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MockzillamobileuiMockzillaMobileUiBuildConfig *shared __attribute__((swift_name("shared")));
+@property (readonly) BOOL isSnapshot __attribute__((swift_name("isSnapshot")));
+@property (readonly) NSString *version __attribute__((swift_name("version")));
 @end
 
 __attribute__((objc_subclassing_restricted))

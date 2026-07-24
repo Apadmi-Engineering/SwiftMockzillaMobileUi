@@ -11,4 +11,6 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks = 'mockzillamobileui.xcframework'
     spec.source_files = 'Sources/SwiftMockzillaMobileUi/SwiftMockzillaMobileUi.swift'
     spec.swift_version = '5.9.2'
+    spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+    spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 end
